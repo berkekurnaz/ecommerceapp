@@ -1,0 +1,14 @@
+C:\Users\BKOyu\source\repos\ECommerce\ECommerce.Business\bin\Debug\netcoreapp3.1\ECommerce.Business.deps.json
+C:\Users\BKOyu\source\repos\ECommerce\ECommerce.Business\bin\Debug\netcoreapp3.1\ECommerce.Business.dll
+C:\Users\BKOyu\source\repos\ECommerce\ECommerce.Business\bin\Debug\netcoreapp3.1\ECommerce.Business.pdb
+C:\Users\BKOyu\source\repos\ECommerce\ECommerce.Business\obj\Debug\netcoreapp3.1\ECommerce.Business.AssemblyInfoInputs.cache
+C:\Users\BKOyu\source\repos\ECommerce\ECommerce.Business\obj\Debug\netcoreapp3.1\ECommerce.Business.AssemblyInfo.cs
+C:\Users\BKOyu\source\repos\ECommerce\ECommerce.Business\obj\Debug\netcoreapp3.1\ECommerce.Business.csproj.CoreCompileInputs.cache
+C:\Users\BKOyu\source\repos\ECommerce\ECommerce.Business\obj\Debug\netcoreapp3.1\ECommerce.Business.dll
+C:\Users\BKOyu\source\repos\ECommerce\ECommerce.Business\obj\Debug\netcoreapp3.1\ECommerce.Business.pdb
+C:\Users\BKOyu\source\repos\ECommerce\ECommerce.Business\bin\Debug\netcoreapp3.1\ECommerce.DataAccess.dll
+C:\Users\BKOyu\source\repos\ECommerce\ECommerce.Business\bin\Debug\netcoreapp3.1\ECommerce.Models.dll
+C:\Users\BKOyu\source\repos\ECommerce\ECommerce.Business\bin\Debug\netcoreapp3.1\ECommerce.DataAccess.pdb
+C:\Users\BKOyu\source\repos\ECommerce\ECommerce.Business\bin\Debug\netcoreapp3.1\ECommerce.Models.pdb
+C:\Users\BKOyu\source\repos\ECommerce\ECommerce.Business\obj\Debug\netcoreapp3.1\ECommerce.Business.csprojAssemblyReference.cache
+C:\Users\BKOyu\source\repos\ECommerce\ECommerce.Business\obj\Debug\netcoreapp3.1\ECommerce.Business.csproj.CopyComplete

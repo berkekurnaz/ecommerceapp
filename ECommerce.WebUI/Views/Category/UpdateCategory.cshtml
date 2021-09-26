@@ -1,0 +1,36 @@
+﻿@model ECommerce.Models.Concrete.Category
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<br />
+<h3>Update Category</h3>
+<hr />
+
+@if (TempData["MsgError"] != null)
+{
+    <div class="alert alert-danger">@TempData["MsgError"]</div>
+    <br />
+}
+
+<form method="post" asp-controller="Category" asp-action="UpdateCategory" asp-route-Id="@Model.Id">
+
+    <div class="form-group col-md-6 offset-md-3">
+        <label>Title</label>
+        <input asp-for="Title" type="text" class="form-control" value="@Model.Title" required />
+    </div>
+    <br />
+
+    <div class="form-group col-md-6 offset-md-3">
+        <label>Description</label>
+        <input asp-for="Description" type="text" class="form-control" value="@Model.Description"  required />
+    </div>
+    <br />
+
+
+    <div class="form-group col-md-6 offset-md-3">
+        <button type="submit" class="btn btn-info">Update Category</button>
+    </div>
+
+</form>

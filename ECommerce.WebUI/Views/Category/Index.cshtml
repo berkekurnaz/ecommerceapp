@@ -1,0 +1,40 @@
+﻿@model IEnumerable<ECommerce.Models.Concrete.Category>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<br />
+<h3>Categories Page</h3>
+<hr />
+<a href="/Category/AddCategory" class="btn btn-info">Add New Category</a>
+<br />
+<br />
+
+@if (TempData["MsgSuccess"] != null)
+{
+    <div class="alert alert-success">@TempData["MsgSuccess"]</div>
+    <br />
+}
+
+<table class="table table-bordered table-responsive">
+    <thead>
+        <tr>
+            <th scope="col">Category ID</th>
+            <th scope="col">Operations</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <th scope="row">@item.Title</th>
+                <td>
+                    <a href="/Home/Index?categoryId=@item.Id" class="btn btn-info btn-sm">Show Products</a>
+                    <a href="/Category/UpdateCategory/@item.Id" class="btn btn-success btn-sm">Update Category</a>
+                    <a href="/Category/DeleteCategory/@item.Id" class="btn btn-danger btn-sm">Delete Category</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

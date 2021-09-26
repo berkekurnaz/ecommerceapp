@@ -1,0 +1,8 @@
+C:\Users\BKOyu\source\repos\ECommerce\ECommerce.Models\bin\Debug\netcoreapp3.1\ECommerce.Models.deps.json
+C:\Users\BKOyu\source\repos\ECommerce\ECommerce.Models\bin\Debug\netcoreapp3.1\ECommerce.Models.dll
+C:\Users\BKOyu\source\repos\ECommerce\ECommerce.Models\bin\Debug\netcoreapp3.1\ECommerce.Models.pdb
+C:\Users\BKOyu\source\repos\ECommerce\ECommerce.Models\obj\Debug\netcoreapp3.1\ECommerce.Models.AssemblyInfoInputs.cache
+C:\Users\BKOyu\source\repos\ECommerce\ECommerce.Models\obj\Debug\netcoreapp3.1\ECommerce.Models.AssemblyInfo.cs
+C:\Users\BKOyu\source\repos\ECommerce\ECommerce.Models\obj\Debug\netcoreapp3.1\ECommerce.Models.csproj.CoreCompileInputs.cache
+C:\Users\BKOyu\source\repos\ECommerce\ECommerce.Models\obj\Debug\netcoreapp3.1\ECommerce.Models.dll
+C:\Users\BKOyu\source\repos\ECommerce\ECommerce.Models\obj\Debug\netcoreapp3.1\ECommerce.Models.pdb

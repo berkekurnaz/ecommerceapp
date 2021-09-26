@@ -1,0 +1,60 @@
+﻿@model IEnumerable<ECommerce.Models.Concrete.Product>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@{       
+    List<ECommerce.Models.Concrete.Category> findCategories = ViewBag.FindCategories;
+    String getCategoryName(MongoDB.Bson.ObjectId categoryId){
+        var categoryName = "";
+        foreach (var item in findCategories)
+        {
+            if(item.Id == categoryId)
+            {
+                categoryName = item.Title;
+            }
+        }
+        return categoryName;
+    }
+}
+
+<br />
+<h3>Products Page</h3>
+<hr />
+<a href="/Home/AddProduct" class="btn btn-info">Add New Product</a>
+<br />
+<br />
+
+@if (TempData["MsgSuccess"] != null)
+{
+    <div class="alert alert-success">@TempData["MsgSuccess"]</div>
+    <br />
+}
+
+<table class="table table-bordered table-responsive">
+    <thead>
+        <tr>
+            <th scope="col">Product ID</th>
+            <th scope="col">Title</th>
+            <th scope="col">Category</th>
+            <th scope="col">Stock Quantity</th>
+            <th scope="col">Operations</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <th scope="row">@item.Id</th>
+                <td>@item.Title</td>
+                <td>@getCategoryName(item.Category)</td>
+                <td>@item.StockQuantity</td>
+                <td style="width:20%">
+                    <a href="/Home/UpdateProduct/@item.Id" class="btn btn-success btn-sm">Update Product</a>
+                    <a href="/Home/DeleteProduct/@item.Id" class="btn btn-danger btn-sm">Delete Product</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
